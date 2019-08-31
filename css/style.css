@@ -199,6 +199,10 @@ section {
     overflow: hidden;
 }
 
+.incomplete-row {
+    position: relative;
+    left: 50%;
+}
 .Image-logo{
     width: 50%;
     height: 350px;
@@ -218,11 +222,6 @@ section {
     width: 100%;
     height: 350px;
 
-}
-
-.incomplete-row {
-    position: relative;
-    left: 50%;
 }
 
 @media all and (max-width: 1400px ){
@@ -262,6 +261,10 @@ section {
         height: 100vh;
         object-fit: cover;
         object-position: center;
+    }
+    .incomplete-row {
+        position: relative;
+        left: 50%;
     }
     .content {
         position: relative;
@@ -341,6 +344,10 @@ section {
         font-size: 3em;
     }
 
+    .incomplete-row {
+        position: relative;
+        left: 50%;
+    }
     .Image-logo{
         height: 30vh;
         width: 80%;
@@ -412,7 +419,9 @@ section {
         overflow: scroll;
 
     }
-    
+    .incomplete-row {
+        left: 0;
+    }
 
 }
 
@@ -429,7 +438,9 @@ section {
     .center-box{
         margin: 0;
     }
-
+    .incomplete-row {
+        left: 0;
+    }
     
 }
 
@@ -491,6 +502,7 @@ section {
     font-size: 1.5rem;
     margin-top: 10%;
     margin-left: 5%;
+    margin-right: 5%;
     text-align: justify;
 }
 .Image-box {
@@ -510,9 +522,12 @@ section {
 .Image-alignment img {
     height: 350px;
     width: auto;
-    margin-top: 20%;
-    margin-left: 25%;
+    margin-left: 0;
     object-fit: cover;
+}
+.conduct-image {
+    margin-top: 20% !important;
+    margin-left: 25% !important;
 }
 .text-headline h2 {
     color: #8166cd;
@@ -555,8 +570,14 @@ section {
     .Image-alignment img {
         height: 450px;
         width: 100%;
-        margin-left: 25%;
         object-fit: contain;
+    }
+    .conduct-image {
+        margin-left: 25% !important;
+    }
+    .incomplete-row {
+        position: relative;
+        left: 50%;
     }
 }
 
@@ -1386,7 +1407,9 @@ article{
 .tracks{
     box-shadow: 2px 2px 15px 10px rgba(0,0,0,0.2);
 }
-
+.incomplete-row {
+    left: 0%;
+}
 
 }
 
@@ -1853,6 +1876,7 @@ article{
 }
 
 .footer address{
+    text-align: center;
     color: #888;
     margin-top: 4%;
 }
