@@ -32,10 +32,16 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;/
 }
 
-
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+  }
 
 header {
     background: #8166cd;
@@ -1903,14 +1909,10 @@ article{
 
 
 .modal{
-    width: 40%;
-    height: 50vh;
+    width: 50%;
+    /* height: 50vh; */
     overflow-y: scroll;
-    border: 5px solid #eea44f;
-
-   
-
-
+    overflow: initial;
 }
 
 .modal a{
