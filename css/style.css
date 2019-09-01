@@ -474,7 +474,7 @@ section {
     font-display: block;
     color: #8166cd;
     margin-top: 3%;
-    font-size: 5rem;
+    font-size: 5rem !important;
 }
 
 @media all and (max-width:550px){
@@ -1044,11 +1044,7 @@ article{
     }
 
     .Title-image-box img{
-        width: 100%;
-        height: 400px;
-        margin: auto;
-        object-fit: contain;
-
+        display: none;
     }
 
     .Prize-outer-box{
@@ -1293,7 +1289,7 @@ article{
 }
 
 .tracks-box{
-    width: 90vw;
+    width: 100vw;
     height: auto;
     margin: auto;
     
@@ -1319,7 +1315,7 @@ article{
 .tracks img{
     height: 300px;
     width: 100%;
-    background: #000;
+    background: #fff;
     border-radius: 10px;
 }
 
@@ -1432,7 +1428,7 @@ article{
     .tracks-row {
         flex-direction: column;
         position: relative;
-        left: 6%;
+        left: 2%;
     }
 
     .tracks {
@@ -1782,7 +1778,12 @@ article{
     width:90vw;
     height: auto;
     overflow: hidden;
-    margin-left: 7vw;
+    /* margin-left: 7vw; */
+    margin: auto;
+}
+.powered-by-row {
+    display: flex;
+    justify-content: center;
 }
 
 .powered-by .image-con{
@@ -1805,10 +1806,10 @@ article{
     background: white;
 }
 
-#center{
+/* #center{
     margin-left: 45%;
     transform: translate(-50%);
-}
+} */
 
 .download-box{
     background: white;
@@ -1821,7 +1822,9 @@ article{
         overflow: hidden;
         margin-left: 7vw;
     }
-    
+    .powered-by-row {
+        flex-direction: column;
+    }
     .powered-by .image-con{
         width: 90%;
         float: left;
