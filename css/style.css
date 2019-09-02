@@ -1954,3 +1954,9 @@ article{
 .center{
     margin-left: 15%!important;
 }
+
+@media (max-width:576px){
+    .text-headline h1{
+        font-size: 3rem!important;
+    }
+}
