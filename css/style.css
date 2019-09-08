@@ -811,6 +811,10 @@ article{
     background: #FFD175;
 }
 
+.Image-box-timeline{
+
+}
+
 
 .right-headline{
     font-size: 5em;
@@ -1738,7 +1742,7 @@ article{
 }
 
 .Image-box-timeline img{
-    width: 100%;
+    width: 90%;
     height: 400px;
     float: right;
     margin: 5%;
