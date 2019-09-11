@@ -1772,14 +1772,14 @@ article{
     }
     
     .Image-box-timeline{
-        width: 80%;
+        width: 90%;
         height: 400px;
         margin-left: 10%;
         overflow: hidden;
     }
     
     .Image-box-timeline img{
-        width: 100%;
+        width: 90%;
         height: 400px;
         margin: 5%;
         object-fit: contain;
